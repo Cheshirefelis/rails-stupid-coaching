@@ -1,0 +1,12 @@
+<div id="question">
+ <p class="d-block p-3 text-bg-primary"><%= @question %></p>
+ <p class="d-block p-3 text-bg-dark">--You</p>
+</div>
+
+<br>
+
+<div id="answer">
+  <p class="d-block p-3 text-bg-secondary"><%= @answer %></p>
+  <p class="d-block p-3 text-bg-dark">--Coach</p>
+  <%= link_to "Ask Coach another question", question_path %>
+</div>
